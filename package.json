@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
+  "publishConfig":{
+    "registry": "http://13.235.17.205:9398/gowthami/repository/nodejsrepo-gsr/"
+  },
   "scripts": {
     "server": "http-server -c-1 -p 9999",
     "start1": "nodemon app.js",
@@ -23,11 +26,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://13.212.29.25:9980/mithuntechnologies/repository/nodejsproject/"
+    "url": "http://13.235.17.205:9980/gowthami/repository/nodejsproject/"
   },
   "keywords": [
     "node",
-    "Mithun Technologies",
+    "Chowduri Gowthami",
     "express"
   ],
   "author": "Mithun Reddy Lacchannagari",
